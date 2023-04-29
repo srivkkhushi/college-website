@@ -1,0 +1,61 @@
+.menu{
+    list-style: none;
+    display: flex;
+}
+body{
+    margin: 0px ;
+}
+.menu li a{
+    height: 30px;
+    align-items: center;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight:400;
+    letter-spacing: 1px;
+    color: rgb(240, 31, 31);
+    
+}
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(10, 20, 20);
+}
+a{
+    text-decoration: aqua;
+
+}
+input[type=text], input[type=email], textarea {
+    border-radius: 4px;
+    color: aqua;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form{
+    border: 2px solid rgba(255, 0, 0, 0.35);
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label{
+    display: block;
+    text-align: center;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #56e3e0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: aquamarine;
+    font-size: medium;
+    margin: 4px 20px;
+    cursor: pointer;
+  }
